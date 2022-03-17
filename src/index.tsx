@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { init as initStore } from './store';
+
+initStore();
 
 ReactDOM.render(
   <React.StrictMode>
